@@ -1,0 +1,11 @@
+PSTOPIC
+    about_PSSFTP
+
+SHORT DESCRIPTION
+    PSSFTP allows you to interact with SFTP endpoints
+
+LONG DESCRIPTION
+    PSSFTP utilizes Putty's psftp.exe tool to interact with SFTP endpoints to delete, list, and transfer files.
+
+DETAILED DESCRIPTION
+    Functions that will interact with SFTP endpoints to delete, list, and transfer files.
