@@ -111,6 +111,7 @@
     }
 
     #Create Published Data
+    $output = [system.string]::Join("`n", $output)
     $pubdata = New-Object System.Management.Automation.PSObject -Property ([Ordered]@{
             Server        = $server
             Path          = $path
