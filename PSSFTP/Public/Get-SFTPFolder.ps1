@@ -7,10 +7,10 @@
     	CREATED DATE: 2018-02-02
 
     .SYNOPSIS
-        Uses Putty psftp.exe to execute secure file transfers on remote hosts
+        Uses Putty psftp.exe to list folder contents on remote hosts
         
     .DESCRIPTION
-        Uses Putty psftp.exe to execute secure file transfers on remote hosts
+        Uses Putty psftp.exe to list folder contents on remote hosts
 
     .PARAMETER Server
         Name of remote host to connect
