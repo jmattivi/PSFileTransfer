@@ -16,7 +16,7 @@
         Name of remote host to connect
 
     .PARAMETER Path
-        Username to connect to remote host
+        Source path on remote host
 
     .PARAMETER AutoAcceptKey
         Automatically accept the key for the remote host - Default value is True
@@ -71,14 +71,14 @@
         $cmd = @(
             "y",
             "This is a really, really, really, really long bogus cmd", #Required for timing issue while running the expect commands
-            "dir ""$Path""",
+            "dir ""$path""",
             "bye"
         )
     }
     ElseIf ($autoacceptkey -eq $false)
     {
         $cmd = @(
-            "dir ""$Path""",
+            "dir ""$path""",
             "bye"
         )
     }

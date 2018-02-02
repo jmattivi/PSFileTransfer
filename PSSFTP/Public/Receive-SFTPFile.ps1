@@ -16,13 +16,13 @@
         Name of remote host to connect
 
     .PARAMETER SourcePath
-        Username to connect to remote host
+        Source path on remote host
 
     .PARAMETER DestPath
-        Command to run on remote host
+        Local path to download the file(s)
     
     .PARAMETER FileName
-        Command to run on remote host
+        File or filemask to transfer
 
     .PARAMETER AutoAcceptKey
         Automatically accept the key for the remote host - Default value is True
