@@ -108,9 +108,9 @@
         
     #Create Published Data
     $output = [system.string]::Join("`n", $output)
-    $StartIndex = ($output.IndexOf("psftp> Listing directory"))
-    $EndIndex = ($output.IndexOf("Sent EOF message")) - $StartIndex
-    $output = $output.Substring($StartIndex, $EndIndex)
+    $startindex = ($output.IndexOf("psftp> Listing directory"))
+    $endindex = ($output.IndexOf("Sent EOF message")) - $startindex
+    $output = $output.Substring($startindex, $endindex)
     $output = $output.split("`n") | ? {($_ -notlike "*Listing Directory*") -and ($_ -ne "")}
     $output = [system.string]::Join("`n", $output)
 
