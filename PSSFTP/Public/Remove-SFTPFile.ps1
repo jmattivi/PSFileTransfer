@@ -55,7 +55,7 @@
         [ValidateNotNullOrEmpty()]
         [string]$FileName,
         [Parameter(Position = 3, Mandatory = $true)]
-        [Switch]$AutoAcceptKey = $true,
+        [bool]$AutoAcceptKey = $true,
         [Parameter(ParameterSetName = 'UsePasswordAuthentication', Mandatory = $true)]
         [ValidateNotNullOrEmpty()]
         [System.Management.Automation.PSCredential]

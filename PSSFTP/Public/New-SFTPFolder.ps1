@@ -51,7 +51,7 @@
         [parameter(position = 3, mandatory = $true)]
         [String]$NewFolderName,
         [parameter(position = 4, mandatory = $false)]
-        [String]$AutoAcceptKey = $true,
+        [bool]$AutoAcceptKey = $true,
         [Parameter(ParameterSetName = 'UsePasswordAuthentication', Mandatory = $true)]
         [ValidateNotNullOrEmpty()]
         [System.Management.Automation.PSCredential]

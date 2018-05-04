@@ -12,7 +12,7 @@
     RootModule        = 'PSSFTP.psm1'
 
     # Version number of this module.
-    ModuleVersion     = '1.0.0'
+    ModuleVersion     = '1.0.1'
 
     # ID used to uniquely identify this module
     GUID              = 'c5d5777f-1d77-4059-8e5e-76b3fcc5e7d1'
