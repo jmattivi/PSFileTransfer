@@ -1,5 +1,5 @@
-| AppVeyor | Travis | PS Gallery | Chocolatey | Nuget.org | Gitter |
-|----------|--------|--------------------|------------|-----------|--------|
+| AppVeyor | Azure Pipelines |
+|----------|--------|
 [![Build status](https://ci.appveyor.com/api/projects/status/fsked9rgd4i4x96s?svg=true)](https://ci.appveyor.com/project/jmattivi/pssftp) | [![Build Status](https://dev.azure.com/jmattivi/PSSFTP/_apis/build/status/PSSFTP-CI)](https://dev.azure.com/jmattivi/PSSFTP/_build/latest?definitionId=1)
 
 # PSSFTP
